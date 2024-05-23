@@ -1,0 +1,29 @@
+2024-05-16 12:24:16:2416 [31merror[39m: [31mApplication encountered a critical error. Exiting Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more[39m
+[31m534-5.7.9 information, go to[39m
+[31m534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired 5b1f17b1804b1-4201da9895csm107660105e9.44 - gsmtp[39m
+2024-05-16 12:33:32:3332 [31merror[39m: [31mApplication encountered a critical error. Exiting [39m
+[31mInvalid `prisma.client.findUnique()` invocation in[39m
+[31mC:\Users\intern7\Documents\github\backend\src\utils\helpers\findUsers.ts:6:30[39m
+
+[31m  3 [39m
+[31m  4 export const findUser = async (email: string) => {[39m
+[31m  5   let user: Client | Therapist | null;[39m
+[31m→ 6   user = await prisma.client.findUnique({[39m
+[31m        where: {[39m
+[31m          email: undefined,[39m
+[31m      ?   id?: Int,[39m
+[31m      ?   AND?: ClientWhereInput | ClientWhereInput[],[39m
+[31m      ?   OR?: ClientWhereInput[],[39m
+[31m      ?   NOT?: ClientWhereInput | ClientWhereInput[],[39m
+[31m      ?   firstName?: StringFilter | String,[39m
+[31m      ?   lastName?: StringFilter | String,[39m
+[31m      ?   password?: StringFilter | String,[39m
+[31m      ?   createdAt?: DateTimeFilter | DateTime,[39m
+[31m      ?   profile?: ClientProfileNullableRelationFilter | ClientProfileWhereInput | Null[39m
+[31m        }[39m
+[31m      })[39m
+
+[31mArgument `where` of type ClientWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.[39m
+2024-05-16 12:45:09:459 [31merror[39m: [31mApplication encountered a critical error. Exiting Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more[39m
+[31m534-5.7.9 information, go to[39m
+[31m534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired ffacd0b85a97d-3502bbbc077sm18714964f8f.104 - gsmtp[39m

@@ -1,0 +1,315 @@
+2024-05-12 10:40:52:4052 [31merror[39m: [31muncaughtException: [1;91merror[0m: [1mEnvironment variable not found: DATABASE_URL.[0m[39m
+[31m  [1;94m-->[0m  [4mschema.prisma:3[0m[39m
+[31m[1;94m   | [0m[39m
+[31m[1;94m 2 | [0m  provider = "postgresql"[39m
+[31m[1;94m 3 | [0m  url      = [1;91menv("DATABASE_URL")[0m[39m
+[31m[1;94m   | [0m[39m
+
+[31mValidation Error Count: 1[39m
+[31mPrismaClientInitializationError: [1;91merror[0m: [1mEnvironment variable not found: DATABASE_URL.[0m[39m
+[31m  [1;94m-->[0m  [4mschema.prisma:3[0m[39m
+[31m[1;94m   | [0m[39m
+[31m[1;94m 2 | [0m  provider = "postgresql"[39m
+[31m[1;94m 3 | [0m  url      = [1;91menv("DATABASE_URL")[0m[39m
+[31m[1;94m   | [0m[39m
+
+[31mValidation Error Count: 1[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-12 10:43:28:4328 [31merror[39m: [31muncaughtException: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31mPrismaClientInitializationError: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-12 10:43:52:4352 [31merror[39m: [31muncaughtException: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31mPrismaClientInitializationError: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-12 10:44:28:4428 [31merror[39m: [31muncaughtException: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31mPrismaClientInitializationError: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-12 12:32:27:3227 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-12 12:37:20:3720 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:20:31:2031 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:20:42:2042 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:21:33:2133 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:38:19:3819 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:39:51:3951 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:40:01:401 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:40:21:4021 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:40:36:4036 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:41:06:416 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:41:29:4129 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:41:48:4148 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:43:03:433 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-13 13:43:15:4315 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:42:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-16 12:22:31:2231 [31merror[39m: [31muncaughtException: Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more[39m
+[31m534-5.7.9 information, go to[39m
+[31m534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired 5b1f17b1804b1-41fe518a8fasm242248925e9.33 - gsmtp[39m
+[31mError: Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more[39m
+[31m534-5.7.9 information, go to[39m
+[31m534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired 5b1f17b1804b1-41fe518a8fasm242248925e9.33 - gsmtp[39m
+[31m    at SMTPConnection._formatError (C:\Users\intern7\Documents\github\backend\node_modules\nodemailer\lib\smtp-connection\index.js:798:19)[39m
+[31m    at SMTPConnection._actionAUTHComplete (C:\Users\intern7\Documents\github\backend\node_modules\nodemailer\lib\smtp-connection\index.js:1577:34)[39m
+[31m    at SMTPConnection.<anonymous> (C:\Users\intern7\Documents\github\backend\node_modules\nodemailer\lib\smtp-connection\index.js:554:26)[39m
+[31m    at SMTPConnection._processResponse (C:\Users\intern7\Documents\github\backend\node_modules\nodemailer\lib\smtp-connection\index.js:982:20)[39m
+[31m    at SMTPConnection._onData (C:\Users\intern7\Documents\github\backend\node_modules\nodemailer\lib\smtp-connection\index.js:763:14)[39m
+[31m    at TLSSocket.SMTPConnection._onSocketData (C:\Users\intern7\Documents\github\backend\node_modules\nodemailer\lib\smtp-connection\index.js:195:44)[39m
+[31m    at TLSSocket.emit (node:events:518:28)[39m
+[31m    at TLSSocket.emit (node:domain:488:12)[39m
+[31m    at addChunk (node:internal/streams/readable:559:12)[39m
+[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)[39m
+2024-05-16 12:24:11:2411 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:44:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
+2024-05-16 12:24:16:2416 [31merror[39m: [31mApplication encountered a critical error. Exiting Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more[39m
+[31m534-5.7.9 information, go to[39m
+[31m534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired 5b1f17b1804b1-4201da9895csm107660105e9.44 - gsmtp[39m
+2024-05-16 12:33:32:3332 [31merror[39m: [31mApplication encountered a critical error. Exiting [39m
+[31mInvalid `prisma.client.findUnique()` invocation in[39m
+[31mC:\Users\intern7\Documents\github\backend\src\utils\helpers\findUsers.ts:6:30[39m
+
+[31m  3 [39m
+[31m  4 export const findUser = async (email: string) => {[39m
+[31m  5   let user: Client | Therapist | null;[39m
+[31m→ 6   user = await prisma.client.findUnique({[39m
+[31m        where: {[39m
+[31m          email: undefined,[39m
+[31m      ?   id?: Int,[39m
+[31m      ?   AND?: ClientWhereInput | ClientWhereInput[],[39m
+[31m      ?   OR?: ClientWhereInput[],[39m
+[31m      ?   NOT?: ClientWhereInput | ClientWhereInput[],[39m
+[31m      ?   firstName?: StringFilter | String,[39m
+[31m      ?   lastName?: StringFilter | String,[39m
+[31m      ?   password?: StringFilter | String,[39m
+[31m      ?   createdAt?: DateTimeFilter | DateTime,[39m
+[31m      ?   profile?: ClientProfileNullableRelationFilter | ClientProfileWhereInput | Null[39m
+[31m        }[39m
+[31m      })[39m
+
+[31mArgument `where` of type ClientWhereUniqueInput needs at least one of `id` or `email` arguments. Available options are marked with ?.[39m
+2024-05-16 12:45:09:459 [31merror[39m: [31mApplication encountered a critical error. Exiting Invalid login: 534-5.7.9 Please log in with your web browser and then try again. For more[39m
+[31m534-5.7.9 information, go to[39m
+[31m534 5.7.9  https://support.google.com/mail/?p=WebLoginRequired ffacd0b85a97d-3502bbbc077sm18714964f8f.104 - gsmtp[39m
+2024-05-21 17:51:18:5118 [31merror[39m: [31muncaughtException: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31mPrismaClientInitializationError: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-21 17:51:44:5144 [31merror[39m: [31muncaughtException: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31mPrismaClientInitializationError: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-21 17:52:08:528 [31merror[39m: [31muncaughtException: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31mPrismaClientInitializationError: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-23 19:46:36:4636 [31merror[39m: [31muncaughtException: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31mPrismaClientInitializationError: Can't reach database server at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`[39m
+
+[31mPlease make sure your database server is running at `dpg-co6jl6i0si5c73cgsab0-a.oregon-postgres.render.com`:`5432`.[39m
+[31m    at r (C:\Users\intern7\Documents\github\backend\node_modules\@prisma\client\runtime\library.js:112:2493)[39m
+2024-05-23 20:15:59:1559 [31merror[39m: [31muncaughtException: listen EADDRINUSE: address already in use :::3001[39m
+[31mError: listen EADDRINUSE: address already in use :::3001[39m
+[31m    at Server.setupListenHandle [as _listen2] (node:net:1897:16)[39m
+[31m    at listenInCluster (node:net:1945:12)[39m
+[31m    at Server.listen (node:net:2037:7)[39m
+[31m    at Function.listen (C:\Users\intern7\Documents\github\backend\node_modules\express\lib\application.js:635:24)[39m
+[31m    at Object.<anonymous> (C:\Users\intern7\Documents\github\backend\src\index.ts:44:7)[39m
+[31m    at Module._compile (node:internal/modules/cjs/loader:1369:14)[39m
+[31m    at Module.m._compile (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1618:23)[39m
+[31m    at Module._extensions..js (node:internal/modules/cjs/loader:1427:10)[39m
+[31m    at Object.require.extensions.<computed> [as .ts] (C:\Users\intern7\Documents\github\backend\node_modules\ts-node\src\index.ts:1621:12)[39m
+[31m    at Module.load (node:internal/modules/cjs/loader:1206:32)[39m
